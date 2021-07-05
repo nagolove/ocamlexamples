@@ -10,7 +10,18 @@
  *do
  *)
 
+let msg = "Дикая строчка.";;
+let len = 300;;
+(*let pi = 3.14159265;;*)
+
+let degrees = 45.;;
+(*let radians = degrees /. 360. * 2. *. pi;;*)
+let pi = 4. *. atan 1.;;
+let radians = degrees /. 360. *. 2. *. pi;;
+sin radians;;
+
 let x = 2 in x + 1;;
+(*let x, y = 2 in x + 1, 1;;*)
 let x = 3 in x + 1;;
 
 let x = 1.3;;
@@ -46,10 +57,6 @@ let a = 2.2;;
 let foo = 'c';;
 
 ();;
-
-let msg = "Дикая строчка.";;
-let len = 300;;
-let pi = 3.14159265;;
 
 len;;
 
